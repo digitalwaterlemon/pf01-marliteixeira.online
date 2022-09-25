@@ -7,7 +7,7 @@
             ]
         },
         "redirect": {
-            "type": 303,
+            "type": "303",
             "urls": [
                 "https://ya.ru",
                 "https://google.com"
@@ -40,11 +40,11 @@
                 "audiocontext",
                 "timezone"
             ],
-            "timeout": 40000,
+            "timeout": "40000",
             "obfuscate": true,
             "timezone": true,
-            "tzstart": -3,
-            "tzend": 4
+            "tzstart": "-3",
+            "tzend": "4"
         }
     },
     "black": {
@@ -87,7 +87,7 @@
                 "urls": [
                     "https://yandex.ru"
                 ],
-                "type": 303
+                "type": "303"
             }
         },
         "jsconnect": "replace"
@@ -104,8 +104,8 @@
             "pageview": true,
             "viewcontent": {
                 "use": false,
-                "time": 30,
-                "percent": 75
+                "time": "30",
+                "percent": "75"
             },
             "conversion": {
                 "event": "Lead",
@@ -117,8 +117,8 @@
             "pageview": true,
             "viewcontent": {
                 "use": true,
-                "time": 30,
-                "percent": 75
+                "time": "30",
+                "percent": "75"
             },
             "conversion": {
                 "event": "Purchase",
@@ -131,16 +131,10 @@
         "saveuserflow": false,
         "filters": {
             "allowed": {
-                "countries": [
-                    //"UA",
-                    //"BY",
-                    //"RU"
-                ],
+                "countries": [],
                 "os": [
                     "Android",
-                    "iOS"//,
-                    //"Windows",
-                    //"OS X"
+                    "iOS"
                 ],
                 "inurl": [],
                 "languages": []
@@ -171,12 +165,12 @@
                 "referer": {
                     "empty": false,
                     "stopwords": [
-                        "adheart",
                         "adspy",
-                        "pipiads"
+                        " pipiads",
+                        " adheart"
                     ]
                 },
-                "vpntor": false
+                "vpntor": true
             }
         }
     },
@@ -222,7 +216,7 @@
         }
     ],
     "statistics": {
-        "password": 28121987,
+        "password": "123456789",
         "subnames": [
             {
                 "name": "adn",
