@@ -3,7 +3,7 @@
         "action": "folder",
         "folder": {
             "names": [
-                "land"
+                "whwh"
             ]
         },
         "redirect": {
@@ -65,7 +65,7 @@
             "action": "folder",
             "folder": {
                 "names": [
-                    "land"
+                    "whbh"
                 ],
                 "conversions": {
                     "script": "order.php",
@@ -132,15 +132,15 @@
         "filters": {
             "allowed": {
                 "countries": [
-                    "UA",
-                    "BY",
-                    "RU"
+                    //"UA",
+                    //"BY",
+                    //"RU"
                 ],
                 "os": [
                     "Android",
-                    "iOS",
-                    "Windows",
-                    "OS X"
+                    "iOS"//,
+                    //"Windows",
+                    //"OS X"
                 ],
                 "inurl": [],
                 "languages": []
@@ -170,7 +170,11 @@
                 ],
                 "referer": {
                     "empty": false,
-                    "stopwords": []
+                    "stopwords": [
+                        "adheart",
+                        "adspy",
+                        "pipiads"
+                    ]
                 },
                 "vpntor": false
             }
@@ -218,7 +222,7 @@
         }
     ],
     "statistics": {
-        "password": 12345,
+        "password": 28121987,
         "subnames": [
             {
                 "name": "adn",
@@ -233,7 +237,7 @@
                 "value": "Placement"
             }
         ],
-        "timezone": "Europe/Moscow"
+        "timezone": "America/Sao_Paulo"
     },
     "postback": {
         "lead": "Lead",
